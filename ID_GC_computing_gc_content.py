@@ -46,7 +46,7 @@ def print_highest_gc_content(dataset):
 
 
 def main():
-    file = '05_input_file.txt'
+    file = 'ID_GC_input_file.txt'
     dataset = translate_file_to_list(file)
     print_highest_gc_content(dataset)
 
